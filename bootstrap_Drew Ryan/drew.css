@@ -1,0 +1,40 @@
+.navbar {
+  margin-bottom: 0px;
+  border-radius: 0px;
+  background-color: #5e4485;
+  color: #FFF;
+  padding: 1% 0px;
+  font-size: 1.2em;
+  border: 0px;
+}
+
+.navbar-brand {
+  float: left;
+  min-height: 55px;
+  padding: 0 15px 5px;
+}
+
+.navbar-inverse .navbar-nav .active a,
+.navbar-inverse .navbar-nav .active a:focus,
+.navbar-inverse .navbar-nav .active a:hover {
+  color: #FFF;
+  background-color: #5E4485;
+}
+
+.navbar-inverse .navbar-nav {
+  color: #D5d5d5;
+}
+
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+  text-transform: uppercase;
+}
+
+.btn {
+  font-size: 16px;
+  color: #FFF;
+  padding: 12px 22px;
+  background: #5e4485;
+  border: solid 2px #FFF;
+}
