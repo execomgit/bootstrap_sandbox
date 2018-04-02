@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Website Tutorial</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="drew.css">
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="img/w3newbie.png"></a>
+      </div> <!-- navbar-header -->
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Testmonials</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>  <!-- collapse navbar-collapse -->
+    </div> <!-- container-fluid -->
+  </nav> <!-- navbar navbar-inverse -->
+
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="img/mountains.png" alt="">
+      <div class="carousel-caption">
+        <h1>get to know bootstrap</h1>
+        <br>
+        <button type="button" class="btn bt-default">Get Started</button>
+      </div>  <!-- carousel-caption -->
+    </div>  <!-- item active 01 -->
+      <div class="item">
+        <img src="img/snow.png" alt="">
+      </div>  <!-- item 02 -->
+      <div class="item">
+        <img src="img/red.png" alt="">
+      </div>  <!-- item 03-->
+    </div>  <!-- carousel-inner -->
+
+    <!-- SLIDER CONTROLS START HERE -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>  <!-- Left side -->
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>  <!-- Right side nav -->
+  </div>  <!-- end slider -->
+
+  <div class="container text-center">
+    <h2>What We`re Using</h2>
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="img/html5.png" id="icon">
+        <h4>HTML5</h4>
+      </div> <!-- col-sm-4 -->
+      <div class="col-sm-4">
+        <img src="img/bootstrap.png" id="icon">
+        <h4>Bootstrap</h4>
+      </div> <!-- col-sm-4 -->
+      <div class="col-sm-4">
+        <img src="img/css3.png" id="icon">
+        <h4>CSS3</h4>
+      </div> <!-- col-sm-4 -->
+    </div> <!-- row -->
+  </div>  <!-- container text-center -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h4>Here's the cool thing about Bootstrap...</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut laoreet nunc laoreet odio mattis bibendum. Vestibulum a tincidunt ex. Vestibulum eget erat dictum, mattis nunc a, scelerisque ligula. In consectetur lectus sed ligula vulputate ultrices. Donec a libero leo. Nam nisi ligula, elementum eget risus in, interdum tincidunt risus. Proin condimentum gravida metus, non accumsan leo posuere vulputate. Maecenas dignissim vulputate neque, ut porttitor risus semper non. Aliquam ut sapien vel turpis porta tempor et blandit arcu.</p>
+        <p>Suspendisse quis nulla vulputate, ultricies nibh nec, elementum massa. Proin vitae malesuada nunc. Proin semper lorem non ex semper porttitor. Proin non erat a libero sodales viverra. Vestibulum nec sollicitudin massa, id iaculis velit. Mauris id eros in dolor sagittis condimentum. Nulla laoreet egestas urna, vitae iaculis orci elementum sed. Donec tristique, eros et tempus rutrum, sem odio cursus eros, nec semper magna risus at sem. </p>
+      </div>  <!-- col-md-6 -->
+      <div class="col-md-6">
+        <img src="img/bootstrap2.jpg" class="img-responsive">
+      </div>  <!-- col-md-6 -->
+    </div>  <!-- row -->
+  </div>  <!-- container -->
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <h4>Built with Sass</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut laoreet nunc laoreet odio mattis bibendum. Vestibulum a tincidunt ex. Vestibulum eget erat dictum, mattis nunc a, scelerisque ligula.</p>
+      </div>  <!-- col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <img src="img/sass.png" class="img-responsive">
+      </div>  <!-- col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <h4>And Less</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut laoreet nunc laoreet odio mattis bibendum. Vestibulum a tincidunt ex. Vestibulum eget erat dictum, mattis nunc a, scelerisque ligula.</p>
+      </div>  <!-- col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <img src="img/less.png" class="img-responsive">
+      </div>  <!-- col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
+    </div>  <!-- row -->
+  </div>  <!-- container -->
+
+  <div class="container">
+    <div class="row">
+      <h4> <a href="#hidden" data-toggle="collapse">Care to learn more about Bootstrap?</a> </h4>
+      <div id="hidden" class="collapse">
+        <h4>Here's the cool thing about Bootstrap...</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut laoreet nunc laoreet odio mattis bibendum. Vestibulum a tincidunt ex. Vestibulum eget erat dictum, mattis nunc a, scelerisque ligula. In consectetur lectus sed ligula vulputate ultrices. Donec a libero leo. Nam nisi ligula, elementum eget risus in, interdum tincidunt risus. Proin condimentum gravida metus, non accumsan leo posuere vulputate. Maecenas dignissim vulputate neque, ut porttitor risus semper non. Aliquam ut sapien vel turpis porta tempor et blandit arcu.</p>
+        <p>Suspendisse quis nulla vulputate, ultricies nibh nec, elementum massa. Proin vitae malesuada nunc. Proin semper lorem non ex semper porttitor. Proin non erat a libero sodales viverra. Vestibulum nec sollicitudin massa, id iaculis velit. Mauris id eros in dolor sagittis condimentum. Nulla laoreet egestas urna, vitae iaculis orci elementum sed. Donec tristique, eros et tempus rutrum, sem odio cursus eros, nec semper magna risus at sem. </p>
+      </div>  <!-- hidden collapse -->
+    </div>  <!-- row -->
+  </div>  <!-- container -->
+
+
+  <footer class="container-fluid text-center">
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Contact Us</h3>
+        <br>
+        <h4>Our adress and contact info here</h4>
+      </div> <!-- col-sm-4 -->
+
+      <div class="col-sm-4">
+        <h3>Connect</h3>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+
+      </div> <!-- col-sm-4 -->
+
+      <div class="col-sm-4">
+        <img src="img/bunny.png" class="icon">
+
+      </div> <!-- col-sm-4 -->
+    </div>  <!-- row -->
+  </footer>
+
+
+
+
+</body>
+</html>
